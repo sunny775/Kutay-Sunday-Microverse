@@ -3,3 +3,6 @@
     margin: 20px 20vw;
     background:#8b7c7c
 }
+.form-container .check-group{
+    padding-left:30px !important;
+}

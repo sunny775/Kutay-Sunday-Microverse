@@ -3,30 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">
+    <h1 style='margin:auto; width:60%' id="title">freeCodeCamp Survey Form</h1>
+    <p id="description" style='margin:auto; width:60%'>
       Thank you for taking the time to help us improve the platform
     </p>
     <div class='form-container'>
     <form id="survey-form">
       <div class="form-group">
         <label for="name" id="name-label">Name</label>
-        <input type="text" class="form-control" id="name"  placeholder="Enter your name">
+        <input type="text" class="form-control" id="name"  placeholder="Enter your name" required>
       </div>
       <div class="form-group">
         <label for="Email" id="email-label">Email address</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+        <input type="email" class="form-control" id="email" placeholder="Enter your Email" required>
       </div>
       <div class="form-group">
         <label for="age" id="number-label">Age</label>
@@ -41,7 +41,7 @@
          <option value="learner">Full Time Learner</option>
         </label>
       </div>
-     <div class="form-check">
+     <div class="form-check check-group">
       <p>Would you recommend freeCodeCamp to a friend?</p>
        <label class="form-check-label">
          <input type="radio" class="form-check-input" name="recommend" id="" value="Definitely" checked>
@@ -70,7 +70,7 @@
 
 <div>
   <p>Any comments or suggestions?</p>
-  <textarea class="textarea" placeholder="Enter your comment here" rows="4" cols="80"></textarea>
+  <textarea class="textarea" placeholder="Enter your comment here" rows="4" cols="60"></textarea>
 
 </div>
 
